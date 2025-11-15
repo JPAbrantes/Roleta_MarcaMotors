@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 import "./App.css";
 
 export default function App() {
@@ -36,7 +36,6 @@ export default function App() {
           className="roleta-img"
           draggable={false}
         />
-
         <img
           src="/Seta.png"
           alt="seta"
